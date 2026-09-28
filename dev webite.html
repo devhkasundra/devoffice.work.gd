@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadguru Ceramic | Premier Global Tile Exporter</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            gold: '#D4AF37',
+                            goldHover: '#B89628',
+                            navy: '#0F172A',
+                            slate: '#1E293B',
+                            accent: '#C5A059',
+                            lightBg: '#F8FAFC'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-header {
+            background: rgba(15, 23, 42, 0.92);
+            backdrop-filter: blur(12px);
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.85) 100%), 
+                        url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+        }
+        .tile-box-transition {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+</head>
+<body class="bg-brand-lightBg text-slate-800 font-sans antialiased selection:bg-brand-gold selection:text-white">
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="bg-brand-navy text-gray-300 text-xs py-2 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex items-center space-x-6">
+                <span><i class="fa-solid fa-award text-brand-gold mr-2"></i>26+ Years of Global Tile Export Excellence</span>
+                <span class="hidden md:inline"><i class="fa-solid fa-globe text-brand-gold mr-2"></i>Exporting to 30+ Countries</span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="mailto:sadguruceramic@gmail.com" class="hover:text-brand-gold transition"><i class="fa-regular fa-envelope mr-1 text-brand-gold"></i> sadguruceramic@gmail.com</a>
+                <a href="tel:9821239654" class="hover:text-brand-gold transition"><i class="fa-solid fa-phone mr-1 text-brand-gold"></i> +91 98212 39654</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAVIGATION -->
+    <header class="sticky top-0 z-50 glass-header border-b border-slate-800 shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Brand Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-brand-gold rounded flex items-center justify-center text-brand-navy font-bold text-xl shadow-lg">
+                        S
+                    </div>
+                    <div>
+                        <span class="text-2xl font-bold tracking-tight text-white font-serif block leading-none">SADGURU</span>
+                        <span class="text-xs uppercase tracking-[0.25em] text-brand-gold font-semibold">Ceramic Group</span>
+                    </div>
+                </div>
+
+                <!-- Desktop Nav Links -->
+                <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-200">
+                    <a href="#about" class="hover:text-brand-gold transition">About Us</a>
+                    <a href="#group" class="hover:text-brand-gold transition">Group Companies</a>
+                    <a href="#sourcing" class="hover:text-brand-gold transition">Why Sourcing Partner</a>
+                    <a href="#catalogue" class="hover:text-brand-gold transition">Product & Formats</a>
+                    <a href="#global" class="hover:text-brand-gold transition">Global Presence</a>
+                    <a href="#contact" class="bg-brand-gold hover:bg-brand-goldHover text-brand-navy font-semibold px-5 py-2.5 rounded shadow-lg transition duration-200">Contact Us</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (NO MORBI MENTION HERE) -->
+    <section class="relative hero-gradient py-28 md:py-36 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center space-x-2 bg-brand-gold/20 border border-brand-gold/40 px-3 py-1 rounded-full text-brand-gold text-xs uppercase tracking-wider mb-6">
+                    <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+                    <span>Trusted International Export Partner</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold tracking-tight leading-tight mb-6">
+                    Connecting Global Markets With <span class="text-brand-gold">Premium Tile Solutions</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-300 font-light leading-relaxed mb-10">
+                    With over 26 years of industry experience, Sadguru Ceramic delivers end-to-end tile sourcing, quality assurance, and international export coordination tailored to your exact architectural specifications.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#catalogue" class="bg-brand-gold hover:bg-brand-goldHover text-brand-navy font-bold px-8 py-4 rounded shadow-xl text-center transition">
+                        Explore Tile Formats & Dimensions
+                    </a>
+                    <a href="#contact" class="border border-white/30 hover:border-brand-gold hover:text-brand-gold px-8 py-4 rounded text-center transition font-medium">
+                        Request Custom Export Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEY STATS STRIP -->
+    <section class="bg-brand-slate text-white py-10 border-t border-slate-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="p-4 border-r border-slate-700/60 last:border-0">
+                    <div class="text-3xl md:text-4xl font-bold text-brand-gold font-serif">26+</div>
+                    <div class="text-xs md:text-sm text-gray-300 mt-1 uppercase tracking-wider">Years Experience</div>
+                </div>
+                <div class="p-4 border-r border-slate-700/60 last:border-0">
+                    <div class="text-3xl md:text-4xl font-bold text-brand-gold font-serif">100%</div>
+                    <div class="text-xs md:text-sm text-gray-300 mt-1 uppercase tracking-wider">Quality Inspected</div>
+                </div>
+                <div class="p-4 border-r border-slate-700/60 last:border-0">
+                    <div class="text-3xl md:text-4xl font-bold text-brand-gold font-serif">4+</div>
+                    <div class="text-xs md:text-sm text-gray-300 mt-1 uppercase tracking-wider">Global Regions Served</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-3xl md:text-4xl font-bold text-brand-gold font-serif">1000s</div>
+                    <div class="text-xs md:text-sm text-gray-300 mt-1 uppercase tracking-wider">Successful Shipments</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT & COMPANY OVERVIEW -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-brand-gold font-bold uppercase tracking-widest text-xs">Company Overview</span>
+                    <h2 class="text-3xl md:text-4xl font-serif font-bold text-brand-navy mt-2 mb-6">
+                        A Legacy Built on Quality, Trust, and Seamless Export Operations
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        With over 26 years of experience in the tile industry, <strong>Sadguru Ceramic</strong> has established itself as a trusted and reliable exporter of high-quality tiles and ceramic solutions to international markets. 
+                    </p>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Our business group operates through three specialized entities, combining extensive industry experience, strong market knowledge, and efficient logistics. Together, these companies enable us to seamlessly manage sourcing, product development, stringent quality inspection, sales, and global shipping.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 pt-4 border-t border-gray-100">
+                        <div class="flex items-start space-x-3">
+                            <i class="fa-solid fa-check-circle text-brand-gold mt-1"></i>
+                            <span class="text-sm font-semibold text-gray-800">End-to-End Export Service</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fa-solid fa-check-circle text-brand-gold mt-1"></i>
+                            <span class="text-sm font-semibold text-gray-800">Multi-Factory Sourcing</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fa-solid fa-check-circle text-brand-gold mt-1"></i>
+                            <span class="text-sm font-semibold text-gray-800">Strict Quality Control</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fa-solid fa-check-circle text-brand-gold mt-1"></i>
+                            <span class="text-sm font-semibold text-gray-800">Tailored Packaging</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-brand-navy p-8 rounded-xl text-white shadow-2xl relative z-10">
+                        <h3 class="text-2xl font-serif font-bold text-brand-gold mb-4">Vision & Mission</h3>
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="text-sm font-bold uppercase tracking-wider text-gray-300 mb-1"><i class="fa-regular fa-eye text-brand-gold mr-2"></i> Our Vision</h4>
+                                <p class="text-sm text-gray-300 leading-relaxed">
+                                    To become a trusted global exporter of high-quality tiles by offering innovative designs, competitive prices, and reliable service, establishing our company as a recognized name in the global tile industry.
+                                </p>
+                            </div>
+                            <hr class="border-slate-700">
+                            <div>
+                                <h4 class="text-sm font-bold uppercase tracking-wider text-gray-300 mb-1"><i class="fa-solid fa-bullseye text-brand-gold mr-2"></i> Our Mission</h4>
+                                <p class="text-sm text-gray-300 leading-relaxed">
+                                    To provide premium tiles with consistent quality, competitive pricing, and timely delivery. We are committed to understanding customer needs and building long-term relationships with global business partners.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 w-full h-full bg-brand-gold/20 rounded-xl -z-0 hidden sm:block"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR GROUP COMPANIES SECTION -->
+    <section id="group" class="py-20 bg-brand-lightBg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-gold font-bold uppercase tracking-widest text-xs">Synergistic Structure</span>
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-brand-navy mt-2">Our Business Group Network</h2>
+                <p class="text-gray-600 mt-4">Three specialized companies operating together to ensure smooth sourcing, production supervision, and worldwide distribution.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Entity 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300">
+                    <div class="w-12 h-12 bg-brand-navy/5 rounded-lg flex items-center justify-center text-brand-navy mb-6">
+                        <i class="fa-solid fa-globe text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Sadguru Ceramic</h3>
+                    <p class="text-xs uppercase font-bold text-brand-gold tracking-wider mb-4">Export & International Sales</p>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Our primary export-focused enterprise managing international client communications, global shipping logistics, order fulfillment, and overseas contract execution.
+                    </p>
+                </div>
+
+                <!-- Entity 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300">
+                    <div class="w-12 h-12 bg-brand-navy/5 rounded-lg flex items-center justify-center text-brand-navy mb-6">
+                        <i class="fa-solid fa-building text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Octiva Ceramic Studio</h3>
+                    <p class="text-xs uppercase font-bold text-brand-gold tracking-wider mb-4">Mumbai Hub - Business Operations</p>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Based in Mumbai, supporting administrative operations, customer design consultations, product showcases, and international client management.
+                    </p>
+                </div>
+
+                <!-- Entity 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300">
+                    <div class="w-12 h-12 bg-brand-navy/5 rounded-lg flex items-center justify-center text-brand-navy mb-6">
+                        <i class="fa-solid fa-industry text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Sadguru Enterprise</h3>
+                    <p class="text-xs uppercase font-bold text-brand-gold tracking-wider mb-4">Morbi Hub - Manufacturing Coordination</p>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Situated at India's tile manufacturing hub in Morbi, Gujarat, playing a crucial role in direct factory coordination, production monitoring, and quality inspections.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY WORK WITH A SOURCING PARTNER -->
+    <section id="sourcing" class="py-20 bg-brand-navy text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-brand-gold font-bold uppercase tracking-widest text-xs">Strategic Advantage</span>
+                    <h2 class="text-3xl md:text-4xl font-serif font-bold mt-2 mb-6">
+                        We Source. We Coordinate. We Export.
+                    </h2>
+                    <p class="text-gray-300 leading-relaxed mb-6">
+                        Backed by 26 years of strong industry relationships within India's largest ceramic tile cluster, we source high-grade tiles from carefully selected manufacturing partners and export them worldwide.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed mb-8">
+                        Rather than being limited to the product catalog of a single factory, our approach gives international buyers greater flexibility and access to an expansive portfolio through one single point of contact.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 rounded-full bg-brand-gold/20 flex items-center justify-center text-brand-gold shrink-0 mt-1">1</div>
+                            <div>
+                                <h4 class="font-bold text-white">Custom Specification Matching</h4>
+                                <p class="text-xs text-gray-400 mt-1">Whether you require specific sizes, surface finishes, thickness, or price points, we find the ideal manufacturing match.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 rounded-full bg-brand-gold/20 flex items-center justify-center text-brand-gold shrink-0 mt-1">2</div>
+                            <div>
+                                <h4 class="font-bold text-white">Quality Coordination at Every Stage</h4>
+                                <p class="text-xs text-gray-400 mt-1">We inspect technical specifications, packaging durability, production details, and container loading prior to export.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 rounded-full bg-brand-gold/20 flex items-center justify-center text-brand-gold shrink-0 mt-1">3</div>
+                            <div>
+                                <h4 class="font-bold text-white">Streamlined Communication</h4>
+                                <p class="text-xs text-gray-400 mt-1">Eliminate the risk of dealing with multiple factories separately. Deal with one transparent, reliable export partner.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-brand-slate p-8 rounded-2xl border border-slate-700">
+                    <h3 class="text-xl font-bold text-brand-gold mb-6 font-serif">What Sets Us Apart</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="bg-brand-navy p-5 rounded-lg border border-slate-800">
+                            <i class="fa-solid fa-face-smile text-brand-gold text-2xl mb-3"></i>
+                            <h4 class="font-bold text-sm mb-1">Customer Satisfaction</h4>
+                            <p class="text-xs text-gray-400">Dedicated client support from initial query to harbor delivery.</p>
+                        </div>
+                        <div class="bg-brand-navy p-5 rounded-lg border border-slate-800">
+                            <i class="fa-solid fa-truck-fast text-brand-gold text-2xl mb-3"></i>
+                            <h4 class="font-bold text-sm mb-1">End-to-End Service</h4>
+                            <p class="text-xs text-gray-400">Complete handling of logistics, documentation, and port clearances.</p>
+                        </div>
+                        <div class="bg-brand-navy p-5 rounded-lg border border-slate-800">
+                            <i class="fa-solid fa-handshake text-brand-gold text-2xl mb-3"></i>
+                            <h4 class="font-bold text-sm mb-1">Built on Trust</h4>
+                            <p class="text-xs text-gray-400">Long-standing integrity with international buyers and domestic mills.</p>
+                        </div>
+                        <div class="bg-brand-navy p-5 rounded-lg border border-slate-800">
+                            <i class="fa-solid fa-magnifying-glass text-brand-gold text-2xl mb-3"></i>
+                            <h4 class="font-bold text-sm mb-1">Quality Inspection</h4>
+                            <p class="text-xs text-gray-400">Rigorously inspected dimensions, finish, and strength pre-shipment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT CATEGORIES & INTERACTIVE DIMENSION VISUALIZER -->
+    <section id="catalogue" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-gold font-bold uppercase tracking-widest text-xs">Curated Product Portfolio</span>
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-brand-navy mt-2">Export Range & Interactive Formats</h2>
+                <p class="text-gray-600 mt-4">Select any tile dimension below to instantly preview its relative visual scale and technical specifications.</p>
+            </div>
+
+            <!-- Categories Overview -->
+            <div class="mb-12 flex flex-wrap justify-center gap-3">
+                <span class="bg-brand-lightBg text-brand-navy font-semibold px-4 py-2 rounded-full border border-gray-200 text-xs">Porcelain Tiles</span>
+                <span class="bg-brand-lightBg text-brand-navy font-semibold px-4 py-2 rounded-full border border-gray-200 text-xs">Glazed Vitrified (GVT / PGVT)</span>
+                <span class="bg-brand-lightBg text-brand-navy font-semibold px-4 py-2 rounded-full border border-gray-200 text-xs">Double Charge & Full Body</span>
+                <span class="bg-brand-lightBg text-brand-navy font-semibold px-4 py-2 rounded-full border border-gray-200 text-xs">Wall & Floor Tiles</span>
+                <span class="bg-brand-lightBg text-brand-navy font-semibold px-4 py-2 rounded-full border border-gray-200 text-xs">Outdoor & Anti-Skid</span>
+                <span class="bg-brand-lightBg text-brand-navy font-semibold px-4 py-2 rounded-full border border-gray-200 text-xs">Parking & Heavy Duty</span>
+                <span class="bg-brand-lightBg text-brand-navy font-semibold px-4 py-2 rounded-full border border-gray-200 text-xs">Step Risers & Chemical Adhesives</span>
+            </div>
+
+            <!-- Tile Selector Buttons -->
+            <div class="flex flex-wrap justify-center gap-2 mb-10" id="tileSelector">
+                <!-- JS Populated Buttons -->
+            </div>
+
+            <!-- Dynamic Interactive Visualizer Panel -->
+            <div class="bg-brand-lightBg rounded-2xl border border-gray-200 p-6 md:p-10 shadow-lg">
+                <div class="grid lg:grid-cols-12 gap-8 items-center">
+                    
+                    <!-- Left: Proportional Visual Representation Box -->
+                    <div class="lg:col-span-7 bg-slate-900 rounded-xl p-8 flex flex-col items-center justify-center min-h-[380px] relative overflow-hidden">
+                        <div class="text-xs text-gray-400 absolute top-4 left-4 uppercase tracking-widest">
+                            <i class="fa-solid fa-ruler-combined text-brand-gold mr-1"></i> Proportional Scale Preview
+                        </div>
+                        
+                        <!-- Visual Tile Box Container -->
+                        <div class="w-full h-64 flex items-center justify-center relative my-4">
+                            <div id="tileVisualBox" class="tile-box-transition border-2 border-brand-gold bg-gradient-to-br from-slate-800 to-slate-700 shadow-2xl flex flex-col items-center justify-center text-white relative">
+                                <span id="visualLengthLabel" class="absolute -top-6 text-xs text-brand-gold font-mono font-bold">2400 mm</span>
+                                <span id="visualWidthLabel" class="absolute -left-12 top-1/2 -translate-y-1/2 -rotate-90 text-xs text-brand-gold font-mono font-bold">1200 mm</span>
+                                <i class="fa-solid fa-border-all text-brand-gold/40 text-2xl mb-1"></i>
+                                <span id="visualName" class="text-xs font-bold text-center px-2">Slab Format</span>
+                            </div>
+                        </div>
+
+                        <p class="text-xs text-gray-400 text-center mt-2">
+                            *Visual automatically resizes relative to format scale (Slabs vs Standard Sizes vs Accessories).
+                        </p>
+                    </div>
+
+                    <!-- Right: Technical Specification Panel -->
+                    <div class="lg:col-span-5 flex flex-col justify-between">
+                        <div>
+                            <div class="inline-block bg-brand-gold/10 text-brand-gold text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-2" id="tileCategory">
+                                Slab Format
+                            </div>
+                            <h3 class="text-2xl font-bold font-serif text-brand-navy mb-4" id="tileTitle">
+                                2400 x 1200 mm Grand Slab
+                            </h3>
+                            <p class="text-gray-600 text-sm leading-relaxed mb-6" id="tileDesc">
+                                Ultra-large porcelain slabs designed for seamless luxury spaces, minimal grout lines, and modern architectural projects.
+                            </p>
+
+                            <!-- Specs Table -->
+                            <div class="space-y-3 border-t border-b border-gray-200 py-4 mb-6">
+                                <div class="flex justify-between text-sm">
+                                    <span class="text-gray-500">Length (L):</span>
+                                    <span class="font-bold text-brand-navy" id="specLength">2400 mm</span>
+                                </div>
+                                <div class="flex justify-between text-sm">
+                                    <span class="text-gray-500">Breadth (B):</span>
+                                    <span class="font-bold text-brand-navy" id="specBreadth">1200 mm</span>
+                                </div>
+                                <div class="flex justify-between text-sm">
+                                    <span class="text-gray-500">Thickness Range:</span>
+                                    <span class="font-bold text-brand-navy" id="specThickness">9.0 mm - 12.0 mm</span>
+                                </div>
+                                <div class="flex justify-between text-sm">
+                                    <span class="text-gray-500">Surface Finishes:</span>
+                                    <span class="font-bold text-brand-navy" id="specFinish">High Gloss, Matt, Carving, Satin</span>
+                                </div>
+                                <div class="flex justify-between text-sm">
+                                    <span class="text-gray-500">Water Absorption:</span>
+                                    <span class="font-bold text-brand-navy" id="specAbsorption">&lt; 0.5% (Vitrified Grade)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="w-full bg-brand-navy hover:bg-brand-slate text-white text-center py-3.5 rounded font-semibold text-sm transition">
+                            Inquire Specifications & Container Quantity
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TILE ACCESSORIES & AUXILIARY PRODUCTS -->
+            <div class="mt-12 bg-white rounded-xl p-8 border border-gray-200">
+                <h3 class="text-lg font-bold text-brand-navy font-serif mb-4"><i class="fa-solid fa-cubes text-brand-gold mr-2"></i>Installation Accessories & Chemical Adhesives Export</h3>
+                <p class="text-gray-600 text-sm mb-6">In addition to tiles, we supply complete tile installation systems for international contractors and distributors.</p>
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
+                    <div class="p-4 bg-brand-lightBg rounded-lg border border-gray-100">
+                        <i class="fa-solid fa-shapes text-brand-gold text-2xl mb-2"></i>
+                        <div class="text-xs font-bold text-brand-navy">Tile Spacers</div>
+                    </div>
+                    <div class="p-4 bg-brand-lightBg rounded-lg border border-gray-100">
+                        <i class="fa-solid fa-play text-brand-gold text-2xl mb-2"></i>
+                        <div class="text-xs font-bold text-brand-navy">Leveling Wedges</div>
+                    </div>
+                    <div class="p-4 bg-brand-lightBg rounded-lg border border-gray-100">
+                        <i class="fa-solid fa-rotate text-brand-gold text-2xl mb-2"></i>
+                        <div class="text-xs font-bold text-brand-navy">Spinners & Clips</div>
+                    </div>
+                    <div class="p-4 bg-brand-lightBg rounded-lg border border-gray-100">
+                        <i class="fa-solid fa-stairs text-brand-gold text-2xl mb-2"></i>
+                        <div class="text-xs font-bold text-brand-navy">Step Risers</div>
+                    </div>
+                    <div class="p-4 bg-brand-lightBg rounded-lg border border-gray-100">
+                        <i class="fa-solid fa-jar-wheat text-brand-gold text-2xl mb-2"></i>
+                        <div class="text-xs font-bold text-brand-navy">Chemical Adhesives</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GLOBAL PRESENCE SECTION -->
+    <section id="global" class="py-20 bg-brand-navy text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-gold font-bold uppercase tracking-widest text-xs">Connecting Markets Worldwide</span>
+                <h2 class="text-3xl md:text-4xl font-serif font-bold mt-2">A Global Presence. A Commitment to Excellence.</h2>
+                <p class="text-gray-300 mt-4">
+                    From India, we have expanded our reach across international markets, serving customers and business partners throughout key global regions with trust and reliable supply chains.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="bg-brand-slate p-8 rounded-xl border border-slate-700 hover:border-brand-gold transition duration-300">
+                    <div class="w-16 h-16 mx-auto bg-brand-gold/10 rounded-full flex items-center justify-center text-brand-gold text-2xl mb-4">
+                        <i class="fa-solid fa-city"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-white font-serif">Middle East</h3>
+                    <p class="text-xs text-gray-400 mt-2">UAE, Saudi Arabia, Qatar, Oman & Neighboring GCC Countries</p>
+                </div>
+
+                <div class="bg-brand-slate p-8 rounded-xl border border-slate-700 hover:border-brand-gold transition duration-300">
+                    <div class="w-16 h-16 mx-auto bg-brand-gold/10 rounded-full flex items-center justify-center text-brand-gold text-2xl mb-4">
+                        <i class="fa-solid fa-earth-africa"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-white font-serif">South Africa</h3>
+                    <p class="text-xs text-gray-400 mt-2">South Africa & Southern African Development Markets</p>
+                </div>
+
+                <div class="bg-brand-slate p-8 rounded-xl border border-slate-700 hover:border-brand-gold transition duration-300">
+                    <div class="w-16 h-16 mx-auto bg-brand-gold/10 rounded-full flex items-center justify-center text-brand-gold text-2xl mb-4">
+                        <i class="fa-solid fa-flag-usa"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-white font-serif">USA</h3>
+                    <p class="text-xs text-gray-400 mt-2">Commercial & Residential Importers, Wholesalers</p>
+                </div>
+
+                <div class="bg-brand-slate p-8 rounded-xl border border-slate-700 hover:border-brand-gold transition duration-300">
+                    <div class="w-16 h-16 mx-auto bg-brand-gold/10 rounded-full flex items-center justify-center text-brand-gold text-2xl mb-4">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-white font-serif">Canada</h3>
+                    <p class="text-xs text-gray-400 mt-2">Architectural Distributors & Building Material Hubs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 26 YEARS LEGACY STORY -->
+    <section class="py-20 bg-brand-lightBg">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white p-8 md:p-12 rounded-2xl shadow-xl border border-gray-100 text-center relative">
+                <i class="fa-solid fa-quote-left text-brand-gold/20 text-6xl absolute top-6 left-6"></i>
+                <span class="text-brand-gold font-bold uppercase tracking-widest text-xs">Our Journey</span>
+                <h2 class="text-2xl md:text-3xl font-serif font-bold text-brand-navy mt-2 mb-6">26 Years. Thousands of Journeys. Countless Lessons.</h2>
+                <p class="text-gray-600 leading-relaxed text-base italic mb-6">
+                    "When we look back at 26 years of exporting tiles, we see more than shipments, markets, and business milestones. We see a journey shaped by people—the customers who trusted us, the partners who stood beside us, and the experiences that taught us to become better with every passing year.
+                </p>
+                <p class="text-gray-600 leading-relaxed text-base italic mb-8">
+                    We learned that quality must remain consistent, even when markets change. We learned that every container leaving our doors represents not just a product, but the name and reputation we have built over decades."
+                </p>
+                <div class="font-bold text-brand-navy font-serif text-lg">— Hasmukh Kasundra</div>
+                <div class="text-xs text-brand-gold font-semibold uppercase tracking-wider">Director, Sadguru Ceramic</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT US SECTION -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12">
+                <!-- Contact Details -->
+                <div class="lg:col-span-5">
+                    <span class="text-brand-gold font-bold uppercase tracking-widest text-xs">Get In Touch</span>
+                    <h2 class="text-3xl font-serif font-bold text-brand-navy mt-2 mb-6">Start Your Export Order Today</h2>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-8">
+                        Connect directly with our directorship team to discuss custom size requirements, product catalogs, FOB/CIF pricing, and shipment schedules.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-brand-lightBg border border-gray-200 flex items-center justify-center text-brand-gold shrink-0">
+                                <i class="fa-solid fa-user-tie"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs uppercase text-gray-500 font-bold">Director</h4>
+                                <p class="text-brand-navy font-bold text-base">Hasmukh Kasundra</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-brand-lightBg border border-gray-200 flex items-center justify-center text-brand-gold shrink-0">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs uppercase text-gray-500 font-bold">Email Us</h4>
+                                <a href="mailto:sadguruceramic@gmail.com" class="text-brand-navy font-bold hover:text-brand-gold text-base">sadguruceramic@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-brand-lightBg border border-gray-200 flex items-center justify-center text-brand-gold shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs uppercase text-gray-500 font-bold">Direct Phone / WhatsApp</h4>
+                                <p class="text-brand-navy font-bold text-base">+91 98212 39654 / +91 85910 95545</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-brand-lightBg border border-gray-200 flex items-center justify-center text-brand-gold shrink-0">
+                                <i class="fa-solid fa-building-user"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs uppercase text-gray-500 font-bold">Group Locations</h4>
+                                <p class="text-brand-navy font-bold text-sm">Sadguru Ceramic (Export Division)</p>
+                                <p class="text-gray-500 text-xs">Octiva Ceramic Studio (Mumbai Hub)</p>
+                                <p class="text-gray-500 text-xs">Sadguru Enterprise (Factory Coordination Hub, Gujarat)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inquiry Form -->
+                <form id="exportInquiryForm" onsubmit="handleInquirySubmit(event)" class="space-y-4">
+    <div class="grid sm:grid-cols-2 gap-4">
+        <div>
+            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Your Full Name</label>
+            <input type="text" id="fullName" required placeholder="John Doe" class="w-full bg-white border border-gray-300 rounded px-4 py-3 text-sm focus:outline-none focus:border-brand-gold">
+        </div>
+        <div>
+            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Company / Business Name</label>
+            <input type="text" id="companyName" required placeholder="Global Trading Co." class="w-full bg-white border border-gray-300 rounded px-4 py-3 text-sm focus:outline-none focus:border-brand-gold">
+        </div>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-4">
+        <div>
+            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Email Address</label>
+            <input type="email" id="email" required placeholder="john@company.com" class="w-full bg-white border border-gray-300 rounded px-4 py-3 text-sm focus:outline-none focus:border-brand-gold">
+        </div>
+        <div>
+            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Phone / WhatsApp Number</label>
+            <input type="tel" id="phone" required placeholder="+1 555 123 4567" class="w-full bg-white border border-gray-300 rounded px-4 py-3 text-sm focus:outline-none focus:border-brand-gold">
+        </div>
+    </div>
+
+    <div>
+        <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Destination Country / Port</label>
+        <input type="text" id="destination" placeholder="e.g. Dubai, UAE / Durban, South Africa" class="w-full bg-white border border-gray-300 rounded px-4 py-3 text-sm focus:outline-none focus:border-brand-gold">
+    </div>
+
+    <div>
+        <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Product Requirement Details</label>
+        <textarea id="requirements" rows="4" required placeholder="Specify size, finish, thickness, or container quantity needed..." class="w-full bg-white border border-gray-300 rounded px-4 py-3 text-sm focus:outline-none focus:border-brand-gold"></textarea>
+    </div>
+
+    <!-- Cloudflare Turnstile Widget (Replace sitekey with your actual key) -->
+    <div class="cf-turnstile" data-sitekey="YOUR_TURNSTILE_SITE_KEY"></div>
+
+    <button type="submit" id="submitBtn" class="w-full bg-brand-gold hover:bg-brand-goldHover text-brand-navy font-bold py-4 rounded shadow-md transition duration-200">
+        Submit International Inquiry
+    </button>
+</form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-brand-navy text-gray-400 py-12 border-t border-slate-800 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div>
+                    <div class="flex items-center space-x-2">
+                        <div class="w-7 h-7 bg-brand-gold rounded flex items-center justify-center text-brand-navy font-bold text-sm">S</div>
+                        <span class="text-white font-serif font-bold text-lg">SADGURU CERAMIC</span>
+                    </div>
+                    <p class="text-xs text-gray-400 mt-1">Exporting Excellence Since 2002. All Rights Reserved.</p>
+                </div>
+                <div class="flex space-x-6 text-xs">
+                    <a href="#about" class="hover:text-brand-gold">About Us</a>
+                    <a href="#group" class="hover:text-brand-gold">Group Structure</a>
+                    <a href="#catalogue" class="hover:text-brand-gold">Product Formats</a>
+                    <a href="#contact" class="hover:text-brand-gold">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE TILE DIMENSION VISUALIZER SCRIPT -->
+    <script>
+async function handleInquirySubmit(event) {
+    event.preventDefault();
+    const form = event.target;
+    
+    // Collecting form data
+  const formData = {
+        fullName: form.querySelectorAll('input')[0].value,
+        company: form.querySelectorAll('input')[1].value,
+        email: form.querySelectorAll('input')[2].value,
+        phone: form.querySelectorAll('input')[3].value,
+        port: form.querySelectorAll('input')[4].value,
+        message: form.querySelector('textarea').value
+    };
+
+    try {
+        const response = await fetch('https://shiny-tooth-33c0.devhkasundra.workers.dev/api/inquiry', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData)
+        });
+
+        if (response.ok) {
+            alert('Thank you for your inquiry! Our export team will contact you within 24 hours.');
+            form.reset();
+        } else {
+            alert('Server error: ' + response.status + '. Please check your Resend/Turnstile keys.');
+        }
+    } catch (error) {
+        console.error('Fetch error:', error);
+        alert('Could not connect to the backend server. Please check your internet connection or Worker CORS settings.');
+    }
+}
+</script>
+</body>
+</html> 
