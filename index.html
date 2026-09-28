@@ -44,7 +44,22 @@
         }
         .tile-box-transition {
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        }
+        } /* Fix form elements width and layout */
+  form input,
+  form select,
+  form textarea {
+    width: 100% !important;
+    min-height: 42px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+    display: block;
+  }
+
+  form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
     </style>
 </head>
 <body class="bg-brand-lightBg text-slate-800 font-sans antialiased selection:bg-brand-gold selection:text-white">
